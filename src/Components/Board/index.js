@@ -97,7 +97,7 @@ export default class Board extends Component {
   render() {
     return (
       <div>
-        <h1>Card-Memory-Game</h1>
+        <h1>Card Memory Game</h1>
         <div className="d-flex justify-content-center mt-5">
           <div className="card-container  mt-4">
             {this.state.emojiToShow.map((elem, i) => {
